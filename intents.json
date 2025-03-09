@@ -1,0 +1,100 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": ["hello", "hi", "hey", "good day", "greetings", "what's up?", "how is it going?"],
+        "responses": ["Hello!", "Hey!", "What can I do for you?", "Hi there!", "Greetings!"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["bye", "goodbye", "see you later", "take care", "see ya"],
+        "responses": ["Goodbye!", "See you later!", "Take care!", "Bye!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["thanks", "thank you", "appreciate it", "thanks a lot"],
+        "responses": ["You're welcome!", "No problem!", "Anytime!", "Glad to help!"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["help", "can you help me?", "I need assistance", "support", "I need help"],
+        "responses": ["Of course! What do you need help with?", "I'm here to assist you.", "Sure, how can I help?"]
+      },
+      {
+        "tag": "affirmation",
+        "patterns": ["yes", "yeah", "sure", "of course", "absolutely"],
+        "responses": ["Great!", "Awesome!", "Good to hear!", "Glad to know!"]
+      },
+      {
+        "tag": "denial",
+        "patterns": ["no", "nope", "not really", "nah"],
+        "responses": ["Alright!", "Let me know if you need anything!", "Okay, no problem."]
+      },
+      {
+        "tag": "unknown",
+        "patterns": ["what?", "I don't understand", "can you repeat?", "say that again?"],
+        "responses": ["I didn't quite get that.", "Can you please rephrase?", "I'm not sure I understand."]
+      },
+      {
+        "tag": "weather",
+        "patterns": ["what's the weather like?", "is it raining?", "how's the weather today?"],
+        "responses": ["Let me check the weather for you.", "It depends on your location!", "I can get the latest forecast for you."]
+      },
+      {
+        "tag": "jokes",
+        "patterns": ["tell me a joke", "make me laugh", "say something funny"],
+        "responses": ["Why don’t scientists trust atoms? Because they make up everything!", "Why was the math book sad? It had too many problems!", "I told my wife she should embrace her mistakes. She gave me a hug."]
+      },
+      {
+        "tag": "time",
+        "patterns": ["what time is it?", "can you tell me the time?", "current time"],
+        "responses": ["The time is [current_time].", "Checking the clock for you!", "It's time to shine!"]
+      },
+      {
+        "tag": "date",
+        "patterns": ["what's the date today?", "tell me today's date", "what is the date?"],
+        "responses": ["Today's date is [current_date].", "Let me check the calendar!", "It's another beautiful day!"]
+      },
+      {
+        "tag": "name",
+        "patterns": ["what's your name?", "who are you?", "introduce yourself"],
+        "responses": ["I'm your friendly chatbot!", "I'm an AI here to assist you."]
+      },
+      {
+        "tag": "mood",
+        "patterns": ["how are you?", "how's your day?", "how do you feel?"],
+        "responses": ["I'm just a bot, but I'm feeling great!", "I'm always here to help!", "I'm doing well, thanks for asking!"]
+      },
+      {
+        "tag": "smalltalk",
+        "patterns": ["what are you doing?", "are you busy?", "what's up?"],
+        "responses": ["Just chatting with you!", "Always ready to help!", "Just processing data and making conversations."]
+      },
+      {
+        "tag": "hobbies",
+        "patterns": ["what do you like to do?", "do you have hobbies?", "what's your favorite thing?"],
+        "responses": ["I like helping people and answering questions!", "Talking to people like you is my favorite thing!", "Learning new things every day!"]
+      },
+      {
+        "tag": "fun_facts",
+        "patterns": ["tell me a fun fact", "give me an interesting fact", "I want to learn something cool"],
+        "responses": ["Did you know honey never spoils?", "A group of flamingos is called a ‘flamboyance’!", "Octopuses have three hearts!"]
+      },
+      {
+        "tag": "math",
+        "patterns": ["can you do math?", "what's 2+2?", "calculate something for me"],
+        "responses": ["Of course! What's the equation?", "I love numbers! What do you need calculated?", "Sure, let me do the math."]
+      },
+      {
+        "tag": "age",
+        "patterns": ["how old are you?", "what's your age?", "when were you created?"],
+        "responses": ["I'm as old as the internet... just kidding!", "I exist outside of time!", "I was created to help, and that's what matters!"]
+      },
+      {
+        "tag": "love",
+        "patterns": ["do you love me?", "can you love?", "what is love?"],
+        "responses": ["I appreciate you!", "Love is a beautiful thing!", "I may not feel love, but I care about helping you!"]
+      }
+    ]
+  }
+  
